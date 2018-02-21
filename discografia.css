@@ -1,0 +1,117 @@
+/*estilo de texto para toda la web*/
+main{
+	font-family: 'Nova Flat',cursive;
+	width: 100%;
+	height: 100%
+}
+
+header{
+	background-color:#ee0000;
+	padding: 2em;
+}
+
+thead{
+	color: black;font-size: 12px;font-family:'Nova Flat', cursive;
+
+	}
+#logoband{
+	height: 120px;
+	padding:1em;
+	display: inline-block;
+
+}
+.boxvideo{
+	display: inline-block;
+	margin: 0 auto;
+}
+.boxtxt{
+	display: inline-block;
+	text-align: center;
+	line-height: 20pt;
+	padding: 3em;
+
+}
+h1{
+	font-family: 'Passion One', cursive;
+}
+.menu{
+	text-align: left;
+	padding-right:5em;
+	padding-bottom: 1em;
+	float: right;
+	
+}
+nav ul li{
+	list-style-type: none;
+	text-align: left;
+	;
+}
+
+.format{
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+}
+
+tbody ol li{
+	font-size: 14px;
+}
+.tstrokes{
+	font-family:'Passion One',cursive;
+	padding-left: 1em;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40pt;
+
+}
+.homelink{
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+
+}
+.disclink{
+	display: inline-block;
+	margin-right: 20px;
+	float:left;
+}
+.productoslink{
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+}
+.contactolink{
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+video{
+	position: center;
+}
+
+
+.desplegableprod{
+	display: none;
+	text-decoration: none;
+	text-align: left;
+	padding: 1em;
+	color: white;
+}
+.productoslink:hover .desplegableprod{
+	display: block;
+
+}
+footer{
+	width: 100%;
+	height:3em;
+	background-color: #ee0000;
+	color: white;
+	font-family: 'Abel', sans-serif;
+	padding: 1em;
+
+}
